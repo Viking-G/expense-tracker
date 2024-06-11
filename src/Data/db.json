@@ -1,0 +1,74 @@
+{
+  "Transaction": [
+    {
+      "id": "3789",
+      "income": "2000",
+      "expense": "100",
+      "remarks": "Test One",
+      "date": "2024/05/27",
+      "total": 1900
+    },
+    {
+      "id": "0a09",
+      "income": "300",
+      "expense": "2000",
+      "remarks": "Test Two",
+      "date": "2024/05/27",
+      "total": -1700
+    },
+    {
+      "id": "17ea",
+      "income": "2997",
+      "expense": "20",
+      "remarks": "Food",
+      "date": "2024/05/27",
+      "total": 2977
+    },
+    {
+      "id": "f22c",
+      "income": "0",
+      "expense": "20",
+      "remarks": "Food",
+      "date": "2024/05/27",
+      "total": -20
+    },
+    {
+      "id": "4611",
+      "income": "0",
+      "expense": "20",
+      "remarks": "Foodd",
+      "date": "2024/05/27",
+      "total": -20
+    },
+    {
+      "id": "daff",
+      "income": "3220",
+      "expense": "0",
+      "remarks": "test test",
+      "date": "2024/05/27",
+      "total": 3220
+    },
+    {
+      "id": "fd51",
+      "remarks": "ahsjdlentk",
+      "date": "2024/05/27",
+      "total": null
+    },
+    {
+      "id": "7e74",
+      "income": "2318",
+      "expense": "23123",
+      "remarks": "test",
+      "date": "2024/05/27",
+      "total": -20805
+    },
+    {
+      "id": "8b12",
+      "income": "2",
+      "expense": "1",
+      "remarks": "s",
+      "date": "2024/05/27",
+      "total": 1
+    }
+  ]
+}

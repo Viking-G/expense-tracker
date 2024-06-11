@@ -1,0 +1,230 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Familjen Grotesk", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar_div {
+  height: 4rem;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_title {
+  font-weight: 400;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+/* HERO SECTION */
+
+.hero_div {
+  border: 2px solid black;
+  background: black;
+  color: white;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_h1 {
+  font-size: 4rem;
+  width: 30rem;
+  margin-left: 5rem;
+}
+
+.hero_p {
+  font-size: 1.5rem;
+  width: 25rem;
+  margin-right: 5rem;
+}
+
+/* RECORD SECTION */
+
+.record_div {
+  margin: 0px;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.record_box {
+  height: 30rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.record_div_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.record_div_form_h2 {
+  text-align: left;
+}
+
+.record_box h2 {
+  font-size: 2.8rem;
+}
+
+.main_form {
+  height: 100%;
+  width: 20%;
+}
+
+.main_form label {
+  font-size: 1.3rem;
+}
+
+.main_form input {
+  font-size: 1.3rem;
+  margin: 1rem 0rem 1rem 0rem;
+  border: 2px solid black;
+  height: 2rem;
+}
+
+.main_form button {
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  background: black;
+  color: white;
+  height: 2.8rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.submit_clear {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.buttons {
+  height: 8rem;
+  width: 80%;
+  gap: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons button {
+  height: 3rem;
+  width: 7rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #e3e0e0;
+}
+
+.total_value_button {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total_record {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.total_record h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.total_value_button p {
+  font-size: 3rem;
+}
+
+/* TRANSACTION HISTORY */
+
+.history_div {
+  margin: 0px;
+  height: 40rem;
+  border-top: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.history_div h1 {
+  font-size: 4rem;
+}
+
+.history_box {
+  height: 100%;
+  width: 90%;
+  background: #c8c2c28d;
+  overflow: scroll;
+  border: 2px solid black;
+}
+
+.history_navbar {
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8c2c28d;
+}
+
+.fields input {
+  height: 2rem;
+  width: 30rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.fields input::placeholder {
+  text-align: center;
+}
+
+.fields button {
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid black;
+}
+
+.fields button:hover {
+  background: #b7b7b7;
+}
+
+table {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  border-collapse: collapse;
+  border: none;
+}
+
+table tr {
+  height: 4rem;
+}
+
+.sort_button {
+  width: fit-content;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
